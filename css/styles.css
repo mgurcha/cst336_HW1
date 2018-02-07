@@ -1,0 +1,125 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+header, main, nav, footer{
+    text-align: center;
+}
+
+nav a{
+    padding:15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s;
+}
+.welcomeText{
+    text-align: left;
+}
+
+.img{
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+
+#img_c{
+    border: 5px solid #01589B;
+}
+
+#img_java{
+    border: 5px solid #E66D0D;
+}
+
+#img_python{
+    border: 5px solid #376A95;
+}
+
+footer{
+    font-size: .8em;
+    color: white;
+    clear: left;
+}
+
+ul{
+    text-align: left;
+    padding-left: 800px;
+}
+
+.list{
+    color:yellow;
+}
+
+.name{
+    text-decoration: underline orange solid;
+}
+
+iframe{
+    display:block;
+    width:100%;
+}
+
+h1{
+   font-family: 'Lobster', cursive;
+   font-size: 5em;
+   margin-bottom: 0px;
+}
+
+nav{
+   font-family: 'Rammetto One', cursive;
+   font-size: .8em;
+   margin-bottom: 0px;
+}
+
+h3{
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+ol{
+    text-align: left;
+    padding-left: 750px;
+}
+
+#java_code{
+    color: #E66D0D;
+}
+
+#java_output{
+    color:#52809D;
+}
+
+.c_code{
+    color: #01589B;
+}
+
+#python_code{
+    color: #376A95;
+}
+
+#python_output{
+    color: #FFC233;
+}
+
+#sample{
+    text-decoration: underline;
+}
+
+p{
+    text-indent: 50px;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+

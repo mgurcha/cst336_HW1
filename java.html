@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<!--
+
+Personal Portfolio website
+(comments can span multiple lines)
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+       <meta char="utf-8"/>
+       <title>Programming Languages</title>
+       <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+       <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
+    </head>
+<!-- closing head -->
+
+    <!-- This is the body -->
+    <!-- This is where we place the content of our website -->
+    <body>
+        <header>
+            <h1> Programming Languages </h1>
+        </header>
+        <nav>
+            <hr width="50%"/>
+            <a href="index.php">Home</a>
+            <a href="c++.html">C++</a>
+             <a href="java.html"><span class="name">Java</span></a>
+            <a href="python.html">Python</a>
+        </nav>
+        
+        <main>
+            <br />
+            <figure class="img">
+                <img src = "img/java.png"/>
+                <figcaption id="img_java">An image of the Java progamming language logo.</figcaption>
+            </figure>
+            <div class="welcomeText">
+                <p>
+                   <mark><strong>Java</strong></mark> is another object-oriented programming language. It was developed in the early 1990s by a small team of 
+                   engineers working at Sun Microsystems at the time. THe team consisted of James Gosling (the main developer), Mike Sheridan, and Patrick Naughton.
+                   The team was known to others as the 'Green Team'. It was initially called the Oak Programming
+                   Language. 
+                </p>
+            
+                <p>
+                   The language borrows much syntax from both C and C++, but has a simpler object model. Java is also a High 
+                   Level Programming Lanuage. It was developed according to the principle of WORA 
+                   (Write Once Run Anywhere). It was introduced to the public in 1995 and is now owned by 
+                   Oracle. The 'Green Team' had five goals in mind when designing the language:
+                </p>
+                    
+                <!--<p>-->
+                <!--    There are many different versions of the C++ programming language:-->
+                <!--</p>-->
+                <ul>
+                    <li><span class="list">To keep it simple to use, familiar to C++/C programmers, and be object oriented</span></li>
+                    <li><span class="list">Keep it both reliable and secure from outsiders</span></li>
+                    <li><span class="list">Keep it 'architecture-neutral' and portable, which is possible through JVM (Java Vitrual Machine)</span></li>
+                    <li><span class="list">Executable with High Performance - it includes features such as 'automatic garbage collection'</span></li>
+                    <li><span class="list">Interpreted, threaded and dynamic - the Java compiler can execute Java 'bytecodes' on any machine where the interpreter and run time system is installe</span></li>
+                    <br>
+                </ul>
+                
+                <p id="sample"><strong>Sample Java Program:</strong></p>
+                <pre>
+                  <code id="java_code">
+                    public class HelloWorld 
+                    {
+                        public static void main(String[] args) 
+                        {
+                            // Prints "Hello, World" 
+                            System.out.println("Hello, World");
+                        }
+                    
+                    }
+                  </code>
+                  _______________________________________________
+                  <samp id = "java_output"> 
+                    <strong>Output: </strong>Hello, World
+                  </samp>
+                </pre>
+                
+                <ol>
+                    <h3>
+                    Sources: <br />
+                    </h3>
+                    <li><a href="https://www.tecmint.com/what-is-java-a-brief-history-about-java/"> What is Java? A Brief History about Java</a></li>
+                    <li><a href="http://www.freejavaguide.com/history.html"> History of Java programming language</a></li>
+                    <li><a href="https://www.computerscience.org/resources/computer-programming-languages/">Computer Programming Languages</a></li>
+                    <li><a href="http://www.oracle.com/technetwork/java/intro-141325.html">The Java Language Environment</a></li>
+                </ol>
+            </div>
+        </main>
+        
+        
+        <!-- This is the footer -->
+        <!-- The footer goes inside the body but not always -->
+        <footer>
+            <hr>
+            CST336. 2018 &copy; Gurcha <br />
+            <img src = "img/csumb.jpg"/>
+        </footer>
+        <!-- closing footer -->
+        
+    </body>
+    <!-- closing body -->
+
+</html>
