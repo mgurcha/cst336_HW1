@@ -50,7 +50,11 @@ footer{
 
 ul{
     text-align: left;
-    padding-left: 800px;
+    padding-left: 900px;
+}
+
+div{
+    display: block;
 }
 
 .list{
@@ -58,13 +62,9 @@ ul{
 }
 
 .name{
-    text-decoration: underline orange solid;
+    text-decoration: underline;
 }
 
-iframe{
-    display:block;
-    width:100%;
-}
 
 h1{
    font-family: 'Lobster', cursive;
@@ -81,6 +81,7 @@ nav{
 h3{
     font-size: 1.2em;
     text-decoration: underline;
+    padding-left: 700px;
 }
 
 ol{

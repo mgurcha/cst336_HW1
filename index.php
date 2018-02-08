@@ -29,20 +29,16 @@ Abstract: Creates a webpage that describes the topic "Prograaming Languages"
             <a href="java.html">Java</a>
             <a href="python.html">Python</a>
         </nav>
-        <br />
         <main>
             <figure class="img">
                 <img src = "img/Prog-languages.png" alt="Programming Languages"/>
                 <figcaption>An image of the various progamming languages.</figcaption>
             </figure>
             <div class="welcomeText">
-                <br />
                 <p>
                    Computer programming languages are a means to give instruction to a computer in a language that it understands 
                    in order to perform certain tasks. The computer can understand instructions in binary and the process of 
-                   translating the function into binary language is known as compilling. 
-                   
-                   
+                   translating the function into binary language is known as compiling. 
                    
                    There are numerous programming languages all over the world and they each have their
                    own distinct features. 
@@ -57,6 +53,16 @@ Abstract: Creates a webpage that describes the topic "Prograaming Languages"
                     <li><span class="list">Java</span> </li>
                     <li><span class="list">Python</span></li>
                 </ul>
+                
+                <p>
+                    All three of the languages listed above are all object-oriented programming languages, or OOP for short. This means that the programs are written on the 
+                    basis of objects. An object in the program of those languages is a collection of data and functions.
+                </p>
+                <p>
+                    <strong>If you want to learn more about each language, go ahead and click on any of them in the navigation bar above!</strong>
+                </p>
+                
+               
             </div>
         </main>
         
