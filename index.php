@@ -9,7 +9,7 @@ Abstract: Creates a webpage that describes the topic "Prograaming Languages"
 
 <!-- The head of the file-->
     <head>
-       <meta char="utf-8"/>
+       <meta charset='UTF-8'/>
        <title>Programming Languages</title>
        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
        <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet"> 
@@ -23,7 +23,7 @@ Abstract: Creates a webpage that describes the topic "Prograaming Languages"
             <h1> Programming Languages </h1>
         </header>
         <nav>
-            <hr width="50%"/>
+            <hr style="width:50%;"/>
             <a href="index.php"><span class="name">Home</span></a>
             <a href="c++.html">C++</a>
             <a href="java.html">Java</a>
@@ -32,7 +32,7 @@ Abstract: Creates a webpage that describes the topic "Prograaming Languages"
         <br />
         <main>
             <figure class="img">
-                <img src = "img/Prog-languages.png"/>
+                <img src = "img/Prog-languages.png" alt="Programming Languages"/>
                 <figcaption>An image of the various progamming languages.</figcaption>
             </figure>
             <div class="welcomeText">
