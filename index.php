@@ -66,7 +66,7 @@ Abstract: Creates a webpage that describes the topic "Prograaming Languages"
         <footer>
             <hr>
             CST336. 2018 &copy; Gurcha <br />
-            <img src = "img/csumb.jpg"/>
+            <img src = "img/csumb.jpg" alt="CSUMB Logo"/>
         </footer>
         <!-- closing footer -->
         
